@@ -10,7 +10,7 @@
 }
 .cont {
   width: 85%;
-  margin: 10px auto;
+  margin: 100px auto;
 }
 main{
     display: flex;
@@ -137,7 +137,7 @@ header {
   display: grid;
   /* gap: 20px; */
   padding: 0px 100px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .prov-title h4{
     font-size: 40px;
@@ -168,14 +168,14 @@ header {
     width: 100%;
     margin-top: 100px;
 
-    height: 40vh;
+    height: 30vh;
 }
 
 .serv-boxs{
     display: grid;
     gap: 20px;
     padding: 0px 100px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .serv-box{
@@ -239,7 +239,7 @@ header {
 grid-template-columns: repeat(1,4fr);
     gap: 20px;
     justify-content: center;
-    height: 60vh;
+    height: 30vh;
 
 }
 
